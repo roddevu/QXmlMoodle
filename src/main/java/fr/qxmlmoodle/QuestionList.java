@@ -5,6 +5,12 @@ import java.util.Locale;
 
 import fr.qxmlmoodle.commons.MoodleXMLList;
 import fr.qxmlmoodle.question.AbstractQuestion;
+import fr.qxmlmoodle.question.QuestionCloze;
+import fr.qxmlmoodle.question.QuestionEssay;
+import fr.qxmlmoodle.question.QuestionMatching;
+import fr.qxmlmoodle.question.QuestionMultiChoice;
+import fr.qxmlmoodle.question.QuestionShortAnswer;
+import fr.qxmlmoodle.question.QuestionTrueFalse;
 import fr.qxmlmoodle.question.QuestionType;
 
 /** Class QuestionList contains all the question of a quiz. */
@@ -17,8 +23,19 @@ public class QuestionList extends MoodleXMLList<AbstractQuestion> {
      * @return The question if quiz support the type of the question
      */
     public final AbstractQuestion createQuestion(final QuestionType type) {
-        return null;
+        AbstractQuestion ques = null;
+        switch (type) {
+        case MULTICHOICE: ques = new QuestionMultiChoice(); break;
+        case TRUEFALSE: ques = new QuestionTrueFalse(); break;
+        case SHORTANSWER: ques = new QuestionShortAnswer(); break;
+        case MATCHING: ques = new QuestionMatching(); break;
+        case CLOZE: ques = new QuestionCloze(); break;
+        case ESSAY: ques = new QuestionEssay(); break;
+        default:  break;
+        }
+        return ques;
     }
+
 
     /** Convert a string to QuestionType if the question type supported.
      * @param type the string representation of a question type
