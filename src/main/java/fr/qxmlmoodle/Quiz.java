@@ -45,6 +45,17 @@ public class Quiz implements Iterable<AbstractQuestion> {
     }
 
 
+    /** Add a question directly.
+     * @param type type of the question
+     * @return the question added
+     */
+    public final AbstractQuestion addQuestion(final QuestionType type) {
+        final AbstractQuestion ques = questions.createQuestion(type);
+        questions.add(ques);
+        return ques;
+    }
+
+
     /** Load XML Quiz moodle format.
      * @param url url of the XML format of an moodle quiz
      * @return true if import success false otherwise
