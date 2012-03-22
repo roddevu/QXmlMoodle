@@ -5,6 +5,7 @@ package fr.qxmlmoodle.question;
 import nu.xom.Element;
 
 import fr.qxmlmoodle.question.answer.AbstractAnswer;
+import fr.qxmlmoodle.question.matching.SubQuestion;
 import fr.qxmlmoodle.question.matching.SubQuestions;
 import fr.qxmlmoodle.xml.XMLExporter;
 import fr.qxmlmoodle.xml.XMLImporter;
@@ -25,6 +26,12 @@ public class QuestionMatching extends AbstractQuestion {
 
 
 
+    /** Add a SubQuestion directly.
+     * @return the question added
+     */
+    public final SubQuestion addSubQuestion() {
+        return subQuestions.add();
+    }
 
 
 
