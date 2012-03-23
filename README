@@ -10,7 +10,7 @@ In order to have the highest visibility all the project and even the documentati
 Quick usage:
 ============
 
-If don't want to "put your hand in the code", follow this 3 steps to use QXmlMoodle in your project:
+If you don't want to "put your hand in the code", follow this 3 steps to use QXmlMoodle in your project:
 1. Add this two jar to your project:
     a XOM 1.2.7 (or higher) findable here: http://www.cafeconleche.org/XOM/xom-1.2.7.jar
     b QXmlMoodle 1.0: https://github.com/roddevu/QXmlMoodle/blob/master/qxmlmoodle.jar
