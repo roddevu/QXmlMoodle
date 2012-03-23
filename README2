@@ -57,7 +57,7 @@ QXmlMoodle provide a class that covers all needs: question list, error list, war
     - etc.
 * To test your quiz:
     - use getErrors() to retrieve the error list
-    - use getWarning() to retrieve warning
+    - use getWarnings() to retrieve warning list
 * To export your quiz, you have two methods:
     - use exportToString() : string
     - use save(file_url : string) : boolean
@@ -75,8 +75,9 @@ Architecture:
     Common:
     -------
 	
-If you want to create a new type of question you have to use the class MoodleXMLList.
+You should use the MoodleXMLList instead of the java list object to maintains a code coherence. 
 This generic class is a container of item, all the class which contains many element extend or use it.
+
 
     Question:
     ---------
@@ -85,22 +86,22 @@ All the questions are in one main class: Quiz.
 
 This class contains:
 * A QuestionList which extend MoodleXMLList. This represent the Question Factory.
-* All the questions which each type extend AbstractQuestion.
+* All the question type extend AbstractQuestion.
 
-An AbstractQuestion extended class provide the createAnswer() method. This method return, by default, the answer of the question type. 
+An AbstractQuestion extended class provide the createAnswer() method. This method permit you to return your own answer type.
 If your question type doesn't need more than the classic answer you can return new AnswerGeneral().
 
 To sump-up, if you want to create or add a new question type:
-1. Create a class QuestionYYY which extend AbstractQuestion in the fr.qxmlmoodle.question package. This class represent the new question type YYY.
-2. If your question need a specific answer:
-   a. Create a class AnswerYYY which extend AbstractAnswer  in the fr.qxmlmoodle.question.answer package.
+1. Create a class QuestionYYY which extend AbstractQuestion, in the fr.qxmlmoodle.question package. This class represent the new question type YYY.
+2. If your question need specific answer:
+   a. Create a class AnswerYYY which extend AbstractAnswer, in the fr.qxmlmoodle.question.answer package.
    b. Override methods: doSpecificImport() and doSpecificExport(). View javadoc for more information: https://github.com/roddevu/QXmlMoodle/tree/master/JavaDoc. -> return false to stop the import/export. 
    c. Override the abstract method createAnswer() from your question type by returning new AnswerYYY().
-3. If your question use a generic answer:
+3. If your question use generic answer:
    a. Override the abstract method createAnswer() by returning new AnswerGeneral().
 4. Override methods: doSpecificImport() and doSpecificExport(). View javadoc for more information: https://github.com/roddevu/QXmlMoodle/tree/master/JavaDoc. -> return false only on important error because this will stop the import/export. Preferably, throw warning or error.
 5. Add your type YYY to the enumeration QuestionType. 
-6. Change the class QuestionList (the question factory in fr.qxmlmoodle package) to add your question. Don't forget to be PMD compliant! So if PMD throw a warning for complexity	create another method createQuestion(I+1) (with I represent the number of createQuestion existing in the class). 
+6. Change the class QuestionList (the question factory in fr.qxmlmoodle package) to add your question. Don't forget to be PMD compliant! So if PMD throw a warning for complexity create another method createQuestion(I+1) (with I represent the number of createQuestion method existing in the class). 
 Normally you could add your new type in the createQuestion2 method. But if PMD throw a warning simply create a new method call createQuestion3.
 7. That's all ;)	
 
@@ -112,16 +113,16 @@ QXmlMoodle have its own exception and warning manager, this allow you to not use
  
 For each exceptions and warning QXmlMoodle provide you all the necessary to correct them: line, xml marker and a short description. Sometimes you will also have a proposition of correction! 
 
-In this version, only an import of a xml file can throw an error or an exception. Indeed since QXmlMoodle export in an correct format,  the import file is supposed to be also in a correct format.
+In this version, only an import of a xml file can throw errors or warnings. Since QXmlMoodle export in an correct XML format.
 
 All error implement IError and all the import error extend ImportError.
 
 All warning implement IWarning and all the import warning extend ImportWarning.
 
 If you want to add an import Warning YYY [or an import Error YYY], you have to:
-1. Create a class ImportWarningYYY [ImportErrorYYY] which extend ImportWarning [ImportError] in the fr.qxmlmoodle.warning [fr.qxmlmoodle.exception] package.
+1. Create a class ImportWarningYYY [ImportErrorYYY] which extend ImportWarning [ImportError], in the fr.qxmlmoodle.warning [fr.qxmlmoodle.exception] package.
 2. Add to the enumeration ImportWarningType [ImportErrorType] your type YYY.
-3. Create constructors with a pertinent parameter and precise the type of your Warning [Error] by using the mother constructor method. View javadoc for more information: https://github.com/roddevu/QXmlMoodle/tree/master/JavaDoc.
+3. Create constructors with pertinent parameter and precise the type of your Warning [Error] by using the mother constructor method. View javadoc for more information: https://github.com/roddevu/QXmlMoodle/tree/master/JavaDoc.
 4. That's all ;)
 
 If you want to throw an import Warning, add the following code in the doSpecificImport() method:
@@ -136,9 +137,10 @@ In both case you can return false to stop the import.
 Last note:
 ==========
 
-QXmlMoodle is fully PMD and CheckStyle compliant.
+QXmlMoodle is fully PMD (3.2.6) and CheckStyle (5.5.0) compliant. 
 
-To participate to this project, your code need to raise 0 warning after a CheckStyle and a PMD scan! PMD information warnings are tolerate, but please avoid them.
+To participate to this project, your code need to raise 0 warning after a CheckStyle (5.5.0) and a PMD (3.2.6) scan! PMD information warnings are tolerate, but please avoid them.
+
 
 For more information look at:
 * Samples: https://github.com/roddevu/QXmlMoodle/tree/master/samples
