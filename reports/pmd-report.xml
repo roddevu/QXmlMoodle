@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.2.5" timestamp="2012-03-23T21:32:21.845">
+<file name="src/fr/qxmlmoodle/Category.java">
+<violation beginline="68" endline="76" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle" class="Category" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'bImportOk' (lines '68'-'76').
+</violation>
+</file>
+<file name="src/fr/qxmlmoodle/QuestionList.java">
+<violation beginline="29" endline="31" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle" class="QuestionList" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'ques' (lines '29'-'31').
+</violation>
+<violation beginline="29" endline="32" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle" class="QuestionList" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'ques' (lines '29'-'32').
+</violation>
+<violation beginline="29" endline="33" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle" class="QuestionList" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'ques' (lines '29'-'33').
+</violation>
+<violation beginline="29" endline="34" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle" class="QuestionList" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'ques' (lines '29'-'34').
+</violation>
+<violation beginline="29" endline="35" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle" class="QuestionList" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'ques' (lines '29'-'35').
+</violation>
+<violation beginline="29" endline="36" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle" class="QuestionList" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'ques' (lines '29'-'36').
+</violation>
+<violation beginline="29" endline="37" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle" class="QuestionList" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'ques' (lines '29'-'37').
+</violation>
+<violation beginline="47" endline="49" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle" class="QuestionList" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'ques' (lines '47'-'49').
+</violation>
+<violation beginline="47" endline="50" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle" class="QuestionList" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'ques' (lines '47'-'50').
+</violation>
+<violation beginline="47" endline="51" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle" class="QuestionList" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'ques' (lines '47'-'51').
+</violation>
+<violation beginline="67" endline="73" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle" class="QuestionList" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'bTypeFound' (lines '67'-'73').
+</violation>
+<violation beginline="68" endline="76" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle" class="QuestionList" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'typeReturn' (lines '68'-'76').
+</violation>
+<violation beginline="69" endline="71" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle" class="QuestionList" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'typeRet' (lines '69'-'71').
+</violation>
+<violation beginline="71" endline="79" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle" class="QuestionList" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'typeRet' (lines '71'-'79').
+</violation>
+</file>
+<file name="src/fr/qxmlmoodle/Quiz.java">
+<violation beginline="64" endline="68" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle" class="Quiz" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'bImportOK' (lines '64'-'68').
+</violation>
+<violation beginline="85" endline="106" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle" class="Quiz" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'bExportOK' (lines '85'-'106').
+</violation>
+<violation beginline="85" endline="88" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle" class="Quiz" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'bExportOK' (lines '85'-'88').
+</violation>
+<violation beginline="85" endline="99" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle" class="Quiz" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'bExportOK' (lines '85'-'99').
+</violation>
+<violation beginline="88" endline="106" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle" class="Quiz" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'bExportOK' (lines '88'-'106').
+</violation>
+<violation beginline="88" endline="99" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle" class="Quiz" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'bExportOK' (lines '88'-'99').
+</violation>
+<violation beginline="92" endline="120" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle" class="Quiz" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'currentCat' (lines '92'-'120').
+</violation>
+<violation beginline="102" endline="120" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle" class="Quiz" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'currentCat' (lines '102'-'120').
+</violation>
+<violation beginline="114" endline="117" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle" class="Quiz" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'result' (lines '114'-'117').
+</violation>
+<violation beginline="129" endline="136" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle" class="Quiz" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'saveOk' (lines '129'-'136').
+</violation>
+<violation beginline="130" endline="142" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle" class="Quiz" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'file' (lines '130'-'142').
+</violation>
+<violation beginline="130" endline="169" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle" class="Quiz" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'file' (lines '130'-'169').
+</violation>
+<violation beginline="131" endline="143" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle" class="Quiz" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'fileWrite' (lines '131'-'143').
+</violation>
+<violation beginline="152" endline="154" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle" class="Quiz" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'saveOk' (lines '152'-'154').
+</violation>
+<violation beginline="154" endline="156" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle" class="Quiz" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'saveOk' (lines '154'-'156').
+</violation>
+<violation beginline="156" endline="162" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle" class="Quiz" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'saveOk' (lines '156'-'162').
+</violation>
+<violation beginline="195" endline="199" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle" class="Quiz" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'retCat' (lines '195'-'199').
+</violation>
+<violation beginline="217" endline="224" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle" class="Quiz" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'bLoadOk' (lines '217'-'224').
+</violation>
+<violation beginline="218" endline="237" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle" class="Quiz" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'currentCategory' (lines '218'-'237').
+</violation>
+<violation beginline="218" endline="274" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle" class="Quiz" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'currentCategory' (lines '218'-'274').
+</violation>
+</file>
+<file name="src/fr/qxmlmoodle/commons/MoodleXMLList.java">
+<violation beginline="47" endline="53" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.commons" class="MoodleXMLList" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'positionCorrected' (lines '47'-'53').
+</violation>
+<violation beginline="61" endline="64" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.commons" class="MoodleXMLList" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'bRemoveOK' (lines '61'-'64').
+</violation>
+<violation beginline="79" endline="83" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.commons" class="MoodleXMLList" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'pos' (lines '79'-'83').
+</violation>
+<violation beginline="79" endline="93" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.commons" class="MoodleXMLList" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'pos' (lines '79'-'93').
+</violation>
+<violation beginline="80" endline="87" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.commons" class="MoodleXMLList" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'bFoundElement' (lines '80'-'87').
+</violation>
+<violation beginline="83" endline="83" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.commons" class="MoodleXMLList" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'pos' (lines '83'-'83').
+</violation>
+<violation beginline="83" endline="93" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.commons" class="MoodleXMLList" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'pos' (lines '83'-'93').
+</violation>
+<violation beginline="110" endline="113" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.commons" class="MoodleXMLList" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'element' (lines '110'-'113').
+</violation>
+<violation beginline="126" endline="130" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.commons" class="MoodleXMLList" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'bSetOk' (lines '126'-'130').
+</violation>
+</file>
+<file name="src/fr/qxmlmoodle/question/AbstractQuestion.java">
+<violation beginline="201" endline="210" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question" class="AbstractQuestion" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'bExportOk' (lines '201'-'210').
+</violation>
+<violation beginline="272" endline="279" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question" class="AbstractQuestion" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'haveName' (lines '272'-'279').
+</violation>
+<violation beginline="272" endline="282" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question" class="AbstractQuestion" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'haveText' (lines '272'-'282').
+</violation>
+<violation beginline="315" endline="334" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question" class="AbstractQuestion" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'bPropertyFound' (lines '315'-'334').
+</violation>
+</file>
+<file name="src/fr/qxmlmoodle/question/AnswerList.java">
+<violation beginline="21" endline="25" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question" class="AnswerList" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'bExportOk' (lines '21'-'25').
+</violation>
+</file>
+<file name="src/fr/qxmlmoodle/question/QuestionCalculated.java">
+<violation beginline="98" endline="100" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question" class="QuestionCalculated" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'bImportOk' (lines '98'-'100').
+</violation>
+<violation beginline="98" endline="102" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question" class="QuestionCalculated" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'bImportOk' (lines '98'-'102').
+</violation>
+</file>
+<file name="src/fr/qxmlmoodle/question/QuestionMultiChoice.java">
+<violation beginline="118" endline="123" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question" class="QuestionMultiChoice" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'bExportOk' (lines '118'-'123').
+</violation>
+<violation beginline="152" endline="157" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question" class="QuestionMultiChoice" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'bExportOk' (lines '152'-'157').
+</violation>
+<violation beginline="189" endline="196" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question" class="QuestionMultiChoice" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'bImportOk' (lines '189'-'196').
+</violation>
+<violation beginline="189" endline="201" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question" class="QuestionMultiChoice" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'bImportOk' (lines '189'-'201').
+</violation>
+<violation beginline="189" endline="206" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question" class="QuestionMultiChoice" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'bImportOk' (lines '189'-'206').
+</violation>
+<violation beginline="189" endline="208" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question" class="QuestionMultiChoice" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'bImportOk' (lines '189'-'208').
+</violation>
+<violation beginline="223" endline="237" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question" class="QuestionMultiChoice" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'bImportOk' (lines '223'-'237').
+</violation>
+</file>
+<file name="src/fr/qxmlmoodle/question/QuestionTrueFalse.java">
+<violation beginline="21" endline="24" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question" class="QuestionTrueFalse" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'anwserFound' (lines '21'-'24').
+</violation>
+<violation beginline="32" endline="35" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question" class="QuestionTrueFalse" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'anwserFound' (lines '32'-'35').
+</violation>
+</file>
+<file name="src/fr/qxmlmoodle/question/answer/AbstractAnswer.java">
+<violation beginline="81" endline="91" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.answer" class="AbstractAnswer" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'bExportOk' (lines '81'-'91').
+</violation>
+<violation beginline="130" endline="148" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.answer" class="AbstractAnswer" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'bImportOk' (lines '130'-'148').
+</violation>
+<violation beginline="130" endline="153" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.answer" class="AbstractAnswer" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'bImportOk' (lines '130'-'153').
+</violation>
+<violation beginline="131" endline="145" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.answer" class="AbstractAnswer" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'haveImportText' (lines '131'-'145').
+</violation>
+<violation beginline="145" endline="145" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.answer" class="AbstractAnswer" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'haveImportText' (lines '145'-'145').
+</violation>
+</file>
+<file name="src/fr/qxmlmoodle/question/answer/AnswerCalculated.java">
+<violation beginline="134" endline="138" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.answer" class="AnswerCalculated" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'bImportOk' (lines '134'-'138').
+</violation>
+<violation beginline="157" endline="173" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.answer" class="AnswerCalculated" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'bImportOk' (lines '157'-'173').
+</violation>
+</file>
+<file name="src/fr/qxmlmoodle/question/calculated/DatasetDefinition.java">
+<violation beginline="149" endline="169" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.calculated" class="DatasetDefinition" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'bExportOk' (lines '149'-'169').
+</violation>
+<violation beginline="187" endline="197" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.calculated" class="DatasetDefinition" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'haveName' (lines '187'-'197').
+</violation>
+<violation beginline="188" endline="206" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.calculated" class="DatasetDefinition" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'haveItemCount' (lines '188'-'206').
+</violation>
+<violation beginline="188" endline="230" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.calculated" class="DatasetDefinition" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'haveItemCount' (lines '188'-'230').
+</violation>
+<violation beginline="189" endline="205" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.calculated" class="DatasetDefinition" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'itemCount' (lines '189'-'205').
+</violation>
+<violation beginline="189" endline="230" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.calculated" class="DatasetDefinition" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'itemCount' (lines '189'-'230').
+</violation>
+<violation beginline="190" endline="207" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.calculated" class="DatasetDefinition" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'itemCountElement' (lines '190'-'207').
+</violation>
+<violation beginline="190" endline="230" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.calculated" class="DatasetDefinition" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'itemCountElement' (lines '190'-'230').
+</violation>
+<violation beginline="205" endline="205" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.calculated" class="DatasetDefinition" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'itemCount' (lines '205'-'205').
+</violation>
+<violation beginline="205" endline="230" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.calculated" class="DatasetDefinition" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'itemCount' (lines '205'-'230').
+</violation>
+<violation beginline="206" endline="206" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.calculated" class="DatasetDefinition" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'haveItemCount' (lines '206'-'206').
+</violation>
+<violation beginline="206" endline="230" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.calculated" class="DatasetDefinition" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'haveItemCount' (lines '206'-'230').
+</violation>
+<violation beginline="207" endline="207" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.calculated" class="DatasetDefinition" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'itemCountElement' (lines '207'-'207').
+</violation>
+<violation beginline="207" endline="230" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.calculated" class="DatasetDefinition" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'itemCountElement' (lines '207'-'230').
+</violation>
+<violation beginline="240" endline="264" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.calculated" class="DatasetDefinition" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'bImportOk' (lines '240'-'264').
+</violation>
+<violation beginline="278" endline="291" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.calculated" class="DatasetDefinition" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'bImportOk' (lines '278'-'291').
+</violation>
+<violation beginline="278" endline="298" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.calculated" class="DatasetDefinition" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'bImportOk' (lines '278'-'298').
+</violation>
+<violation beginline="278" endline="305" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.calculated" class="DatasetDefinition" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'bImportOk' (lines '278'-'305').
+</violation>
+</file>
+<file name="src/fr/qxmlmoodle/question/calculated/DatasetDefinitions.java">
+<violation beginline="24" endline="32" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.calculated" class="DatasetDefinitions" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'bExportOk' (lines '24'-'32').
+</violation>
+<violation beginline="26" endline="42" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.calculated" class="DatasetDefinitions" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'xmlMain' (lines '26'-'42').
+</violation>
+<violation beginline="54" endline="61" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.calculated" class="DatasetDefinitions" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'bImportOk' (lines '54'-'61').
+</violation>
+<violation beginline="80" endline="84" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.calculated" class="DatasetDefinitions" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'bImportOk' (lines '80'-'84').
+</violation>
+</file>
+<file name="src/fr/qxmlmoodle/question/calculated/DatasetItem.java">
+<violation beginline="78" endline="89" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.calculated" class="DatasetItem" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'haveNumber' (lines '78'-'89').
+</violation>
+<violation beginline="79" endline="90" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.calculated" class="DatasetItem" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'numberElement' (lines '79'-'90').
+</violation>
+<violation beginline="79" endline="108" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.calculated" class="DatasetItem" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'numberElement' (lines '79'-'108').
+</violation>
+<violation beginline="80" endline="88" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.calculated" class="DatasetItem" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'numberValue' (lines '80'-'88').
+</violation>
+<violation beginline="81" endline="93" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.calculated" class="DatasetItem" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'haveValue' (lines '81'-'93').
+</violation>
+<violation beginline="88" endline="88" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.calculated" class="DatasetItem" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'numberValue' (lines '88'-'88').
+</violation>
+<violation beginline="89" endline="89" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.calculated" class="DatasetItem" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'haveNumber' (lines '89'-'89').
+</violation>
+<violation beginline="90" endline="90" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.calculated" class="DatasetItem" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'numberElement' (lines '90'-'90').
+</violation>
+<violation beginline="90" endline="108" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.calculated" class="DatasetItem" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'numberElement' (lines '90'-'108').
+</violation>
+<violation beginline="93" endline="93" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.calculated" class="DatasetItem" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'haveValue' (lines '93'-'93').
+</violation>
+</file>
+<file name="src/fr/qxmlmoodle/question/calculated/DatasetItems.java">
+<violation beginline="25" endline="32" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.calculated" class="DatasetItems" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'bExportOk' (lines '25'-'32').
+</violation>
+<violation beginline="26" endline="42" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.calculated" class="DatasetItems" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'xmlMain' (lines '26'-'42').
+</violation>
+<violation beginline="52" endline="59" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.calculated" class="DatasetItems" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'bImportOk' (lines '52'-'59').
+</violation>
+<violation beginline="78" endline="82" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.calculated" class="DatasetItems" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'bImportOk' (lines '78'-'82').
+</violation>
+</file>
+<file name="src/fr/qxmlmoodle/question/calculated/Unit.java">
+<violation beginline="78" endline="85" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.calculated" class="Unit" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'haveMultiplier' (lines '78'-'85').
+</violation>
+<violation beginline="78" endline="88" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.calculated" class="Unit" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'haveUnitName' (lines '78'-'88').
+</violation>
+<violation beginline="85" endline="85" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.calculated" class="Unit" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'haveMultiplier' (lines '85'-'85').
+</violation>
+<violation beginline="88" endline="88" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.calculated" class="Unit" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'haveUnitName' (lines '88'-'88').
+</violation>
+</file>
+<file name="src/fr/qxmlmoodle/question/calculated/Units.java">
+<violation beginline="25" endline="33" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.calculated" class="Units" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'bExportOk' (lines '25'-'33').
+</violation>
+<violation beginline="27" endline="43" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.calculated" class="Units" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'xmlMain' (lines '27'-'43').
+</violation>
+<violation beginline="56" endline="63" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.calculated" class="Units" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'bImportOk' (lines '56'-'63').
+</violation>
+<violation beginline="82" endline="86" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.calculated" class="Units" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'bImportOk' (lines '82'-'86').
+</violation>
+</file>
+<file name="src/fr/qxmlmoodle/question/matching/SubQuestion.java">
+<violation beginline="58" endline="65" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.matching" class="SubQuestion" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'bExportOk' (lines '58'-'65').
+</violation>
+<violation beginline="87" endline="99" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.matching" class="SubQuestion" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'bImportOk' (lines '87'-'99').
+</violation>
+<violation beginline="89" endline="102" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.matching" class="SubQuestion" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'haveAnswer' (lines '89'-'102').
+</violation>
+<violation beginline="89" endline="96" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.matching" class="SubQuestion" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'haveText' (lines '89'-'96').
+</violation>
+<violation beginline="96" endline="96" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.matching" class="SubQuestion" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'haveText' (lines '96'-'96').
+</violation>
+<violation beginline="102" endline="102" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.matching" class="SubQuestion" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'haveAnswer' (lines '102'-'102').
+</violation>
+</file>
+<file name="src/fr/qxmlmoodle/question/matching/SubQuestions.java">
+<violation beginline="44" endline="49" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.matching" class="SubQuestions" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'bExportOk' (lines '44'-'49').
+</violation>
+<violation beginline="66" endline="72" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.matching" class="SubQuestions" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'bImportOk' (lines '66'-'72').
+</violation>
+</file>
+<file name="src/fr/qxmlmoodle/question/text/QuestionText.java">
+<violation beginline="77" endline="93" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.question.text" class="QuestionText" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'bErrorFormat' (lines '77'-'93').
+</violation>
+</file>
+<file name="src/fr/qxmlmoodle/xml/XMLImporter.java">
+<violation beginline="60" endline="72" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.xml" class="XMLImporter" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'loadOk' (lines '60'-'72').
+</violation>
+<violation beginline="72" endline="76" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.xml" class="XMLImporter" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'loadOk' (lines '72'-'76').
+</violation>
+<violation beginline="76" endline="79" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.xml" class="XMLImporter" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'loadOk' (lines '76'-'79').
+</violation>
+<violation beginline="92" endline="94" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.xml" class="XMLImporter" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'root' (lines '92'-'94').
+</violation>
+<violation beginline="119" endline="127" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.xml" class="XMLImporter" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'bFoundText' (lines '119'-'127').
+</violation>
+<violation beginline="120" endline="126" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.xml" class="XMLImporter" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'value' (lines '120'-'126').
+</violation>
+<violation beginline="120" endline="139" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.xml" class="XMLImporter" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'value' (lines '120'-'139').
+</violation>
+<violation beginline="126" endline="139" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.xml" class="XMLImporter" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'value' (lines '126'-'139').
+</violation>
+<violation beginline="154" endline="162" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.xml" class="XMLImporter" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'bFoundText' (lines '154'-'162').
+</violation>
+<violation beginline="155" endline="161" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.xml" class="XMLImporter" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'value' (lines '155'-'161').
+</violation>
+<violation beginline="155" endline="174" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.xml" class="XMLImporter" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'value' (lines '155'-'174').
+</violation>
+<violation beginline="161" endline="174" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.xml" class="XMLImporter" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'value' (lines '161'-'174').
+</violation>
+<violation beginline="207" endline="209" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.xml" class="XMLImporter" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'val' (lines '207'-'209').
+</violation>
+<violation beginline="222" endline="224" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.xml" class="XMLImporter" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'val' (lines '222'-'224').
+</violation>
+<violation beginline="239" endline="241" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="fr.qxmlmoodle.xml" class="XMLImporter" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'val' (lines '239'-'241').
+</violation>
+</file>
+</pmd>
