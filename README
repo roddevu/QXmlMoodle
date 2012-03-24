@@ -54,7 +54,7 @@ QXmlMoodle provide a class that covers all needs: question list, error list, war
     - etc.
 * To test your quiz:
     - use getErrors() to retrieve the error list
-    - use getWarning() to retrieve warning
+    - use getWarnings() to retrieve warning list
 * To export your quiz, you have two methods:
     - use exportToString() : string
     - use save(file_url : string) : boolean
